@@ -1,6 +1,6 @@
 ## **Market Basket Analysis using Association Rules**
 
-- This repository covers `Market Basket Analysis` using `Association Rules` on grocery data :[The Instacart Online Grocery Shopping Dataset 2017](https://www.instacart.com/datasets/grocery-shopping-2017)
+- This sub-repository covers `Market Basket Analysis` using `Association Rules` on grocery data :[The Instacart Online Grocery Shopping Dataset 2017](https://www.instacart.com/datasets/grocery-shopping-2017)
 - The analysis is covered in the notebook `a_rules.ipynb`. The output of this file generates `rules_results.csv`, which contains pairs of `Antecedent`-`Consequent` food items under certain `Support`,`Confidence`, and `Lift` conditions.<br> <br>
   <img src='./snippets/01.jpg' width='720' height='240' title='A-Rules Output Table'> <br>
 - In simpler terms, Antecedent-Consequent pair means that people who bought Antecedent food item tend to buy Consequent food item more often than some random chance. Thus a certain association exist between these food items. In different business settings, such anlaysis help in identifying multiple cross-selling and up-selling opportunites.
