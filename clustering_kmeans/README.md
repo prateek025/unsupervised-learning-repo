@@ -1,8 +1,6 @@
-## **Market Basket Analysis using Association Rules**
+## **Credit Cards Customers segmentation using K-means**
 
-- This repository covers `Market Basket Analysis` using `Association Rules` on grocery data :[The Instacart Online Grocery Shopping Dataset 2017](https://www.instacart.com/datasets/grocery-shopping-2017)
-- The analysis is covered in the notebook `a_rules.ipynb`. The output of this file generates `rules_results.csv`, which contains pairs of `Antecedent`-`Consequent` food items under certain `Support`,`Confidence`, and `Lift` conditions.<br> <br>
-  <img src='./snippets/01.jpg' width='720' height='240' title='A-Rules Output Table'> <br>
-- In simpler terms, Antecedent-Consequent pair means that people who bought Antecedent food item tend to buy Consequent food item more often than some random chance. Thus a certain association exist between these food items. In different business settings, such anlaysis help in identifying multiple cross-selling and up-selling opportunites.
-- R file `rules_visuals.R` takes the output file `rules_results.csv`, generated from `a_rules.ipynb` to generate an interactive network graph that shows different pairs of food items that are often bought together. <br>
-  <img src='./snippets/01a.jpg' width='480' height='360' title='Network Graph'>
+- This repository covers customer-segmentation analysis `K-means` on [Credit Card Dataset for Clustering](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata.html) dataset from Kaggle website has been used for model development and analysis.
+- Different machine learning techniques and analysis such as : **PCA, Silhoutte plots using K-means, Elbow plots using K-means etc** were applied to develop right number of clusters and relevant business strategy.<br>
+  <img src='./snippets/01.JPG' width='360' height='240' title='PCA Plot'> <img src='./snippets/04.JPG' width='360' height='240' title='Cluster Plot'> <br>
+  <img src='./snippets/02.JPG' width='360' height='240' title='Elbow Plot'> <img src='./snippets/03.JPG' width='360' height='240' title='Silhoutte Plot'>
